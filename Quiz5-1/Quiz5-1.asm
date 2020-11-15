@@ -8,7 +8,7 @@
 				org	0x18
 				retfie
 
-start			MOVLW	B'00000001'
+start				MOVLW	B'00000001'
 				MOVWF	0x07,A	
 				MOVWF	0x06,A
 				MOVWF	0x05,A
